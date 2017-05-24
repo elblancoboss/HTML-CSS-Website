@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+/*getting started stylesheet*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+The reset CSS overrides all the style rules applied by the browser stylesheet.
+If you don't want to reset all CSS values then comment the reset rules out----*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+font-family: Georgia, "Times New Roman", Times, Serif;
+font-size: 62.5%;
+color: #333;
+line-height: 1.5;
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+p {
+    line-height: 1.2em;
+    margin-top: 1.1em;
+	color: #1C0538;
+}
+h1 {
+    color: #FF0000;
+    font-family: 'Strait',sans-serif;
+    font-size: 3em;
+    line-height: 2em;
+}
+h2 {
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+h3 {
+    color: #FF0000;
+    font-family: 'Strait',sans-serif;
+    font-size: 1.5em;
+    line-height: 1.1em;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	
+border: 0;
+}
+
+caption	{
+color: #F30;
+font-size: 1.5em;
+line-height: 1.2em;
+padding-bottom: 0.5em;
+}
+
+th	{
+color: #CC1300;
+background-color: #CCCCCC;
+letter-spacing: 0.1em;
+padding: 5px 8px 5px 8px;
+border-right: 1px solid #CC1300;
+border-bottom: 1px solid #CC1300;
+border-left: 1px solid #CC1300;
+}
+
+thead th {
+color: #333;
+background-color: #CC1300;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+border-right: 1px solid #333;
+border-left: 1px solid #333;
+padding: 5px 8px 5px 8px;
+border-radius: 6px 6px 0 0;
+}
+
+thead th:first-child {
+border-left: #CC1300;
+}
+
+thead th:last-child {
+border-right: #CC1300;
+}
+
+td	{
+border: 1px solid #CC1300;
+padding: 2px;
+text-align: center;
+background-color: #578ACC;
+}
+
+td:empty	{
+background-image: url(images/tableStripe.png);
+}
+
+/*end of reset style rules---------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+/*START YOUR STYLSESHEET RULES HERE
+/*default rule for all elements*/
+body {
+}
+/*page section elements-----------------------------------------------------*/
+
+
+    /* Defines the style for the wrapper in which all the page elements are nested */
+    #wrapper {
+    }
+
+    /* Defines the style for the main header at the top of the page */
+    .banner {
+    }
+    /* Defines the style for the main menu navigation bar */
+    .menu {
+    }
+    /* Defines the style for the sidebar */
+    .sidebar { float: right;
+	width: 30%;
+    }
+    /* Defines the style for the main page content */
+    main {
+    }
+    /* Defines the style for the footer at the bottom of the page */
+    .bottom { text-align: center;
+  clear: both;
+  border-top: 3px solid #000000;
+    }
+	/* Defines the style for the main header at the top of the page */
+    figure { margin: auto auto;
+    }
+	figure img {
+	    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+	}
+.fltlt {
+	float: left;
+	margin-right: 8px;
+	}
+	.clear {
+	clear: both;
+	}
+	
+#wrapper {
+width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #CCC;
+  padding: 0 1em 0 1em;
+  max-width: 1000px;
+  min-width: 300px;
+}
+header {
+}
+main	{ float: right;
+width: 70%;
+}
+nav	{
+}
+aside	{
+}
+article	{
+ margin-right: 2em;
+    padding: 1em 1em 1em 0;
+}
+footer {
+}
+/*headings----------------------------------------------------------------------*/
+h1	{
+font-family: Georgia, "Times New Roman", Times, serif;
+  color: #F60;
+  font-size: 36px;
+  line-height: 50px;
+}
+h2	{
+}
+h3 	{
+}
+/*grouping elements--------------------------------------------------------------*/
+
+/*lists--------------------------------------------------------------------------*/
+ul	{
+}
+li	{
+}
+/*text elements-------------------------------------------------------------------*/
+small	{
+}
+.post	{
+}
+/*embedded elements----------------------------------------------------------------*/
+img	{
+border: 1px solid #ccc;
+    margin: 0.5em;
+	width: 85%
+}
+/*anchors-------------------------------------------------------------------------*/
+a:link	{
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+
+body {
+  background-color: #F0F0F0;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+input {display: block;
+color: #1C0538;
+}
+
+label {display: block;
+color: #1C0538;
+}
+
+input[type="radio"] {}
+input[type="submit"] {}   
+
+.menu {
+    border-bottom: 3px solid #000000;
+    border-top: 3px solid #000000;
+    margin: 10px 0 14px;
+    padding: 1em 0;}
+	
+	
+	
+.menu li {
+    display: inline;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    list-style-type: none;
+    margin-left: 0;
+}
+a:link, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px dotted #fff;
+    color: #CC0700;
+    text-decoration: none;
+}
+a:active {
+    background-color: #06c;
+}
+.menu a {
+    color: #ffffdc;
+    margin-right: 4px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+.menu a:link, a:visited, a:active {
+    background-color: #999;
+}
+.menu a:hover {
+    background-color: #f30;
+}
+
+b
+ {
+    font-weight: bold;
+}
